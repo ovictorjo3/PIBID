@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1750471125.17216 "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" "Lista.pdf" "Lista" 1750471125.85663 0
+["pdflatex"] 1750471789.94141 "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" "Lista.pdf" "Lista" 1750471790.62637 0
   "/etc/texmf/web2c/texmf.cnf" 1748796460.87279 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" 1750471124.90545 4548 d1d4a5ec4eaa4fd2f80ec6577b5225ff ""
+  "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" 1750471789.68309 4582 44ec2ad3af12ddd7bb0b9308e476ee6e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcbx1728.tfm" 1136768653 1536 bdf092734aa2fa5107a609ef11182e85 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1728.tfm" 1136768653 1536 e079ec806f4d1916bef9ddc10128af55 ""
@@ -13,12 +13,14 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuguese.ldf" 1625860693 6599 898431e984e4e8b6d8aa6cdcb036f8db ""
@@ -63,8 +65,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1748796475.8272 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1748796563 8214598 63648d2b0e3aef3cd84bdc736277c243 ""
-  "Lista.aux" 1750471125.79439 135 d4052ffd439c87ade5f91de36f5b04c9 "pdflatex"
-  "Lista.tex" 1750471124.90545 4548 d1d4a5ec4eaa4fd2f80ec6577b5225ff ""
+  "Lista.aux" 1750471790.56106 135 d4052ffd439c87ade5f91de36f5b04c9 "pdflatex"
+  "Lista.tex" 1750471789.68309 4582 44ec2ad3af12ddd7bb0b9308e476ee6e ""
   "def.png" 1750429477.60801 70558 59f28e2839b16c3ffa05d499865f5a65 ""
   (generated)
   "Lista.aux"
