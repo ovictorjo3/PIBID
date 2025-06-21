@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1750471789.94141 "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" "Lista.pdf" "Lista" 1750471790.62637 0
+["pdflatex"] 1750472539.2685 "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" "Lista.pdf" "Lista" 1750472539.94542 0
   "/etc/texmf/web2c/texmf.cnf" 1748796460.87279 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" 1750471789.68309 4582 44ec2ad3af12ddd7bb0b9308e476ee6e ""
+  "/home/ovictorjo/Documents/GitHub/PIBID/Lista_Equacao_Polinomial_1_grau/Lista.tex" 1750472538.9631 4504 2d615e6666b090bbe51e9ca5851bd803 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcbx1728.tfm" 1136768653 1536 bdf092734aa2fa5107a609ef11182e85 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1728.tfm" 1136768653 1536 e079ec806f4d1916bef9ddc10128af55 ""
@@ -65,8 +65,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1748796475.8272 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1748796563 8214598 63648d2b0e3aef3cd84bdc736277c243 ""
-  "Lista.aux" 1750471790.56106 135 d4052ffd439c87ade5f91de36f5b04c9 "pdflatex"
-  "Lista.tex" 1750471789.68309 4582 44ec2ad3af12ddd7bb0b9308e476ee6e ""
+  "Lista.aux" 1750472539.88107 135 d4052ffd439c87ade5f91de36f5b04c9 "pdflatex"
+  "Lista.tex" 1750472538.9631 4504 2d615e6666b090bbe51e9ca5851bd803 ""
   "def.png" 1750429477.60801 70558 59f28e2839b16c3ffa05d499865f5a65 ""
   (generated)
   "Lista.aux"
