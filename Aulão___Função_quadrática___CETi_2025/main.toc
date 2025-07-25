@@ -1,5 +1,6 @@
 \babel@toc {brazil}{}\relax 
-\beamer@sectionintoc {1}{Questões UEA}{2}{0}{1}
-\beamer@sectionintoc {2}{Questões ENEM}{7}{0}{2}
-\beamer@sectionintoc {3}{Questões Extras}{13}{0}{3}
-\beamer@sectionintoc {4}{Gabarito}{17}{0}{4}
+\beamer@sectionintoc {1}{Função afim}{2}{0}{1}
+\beamer@sectionintoc {2}{Função Quadrática}{7}{0}{2}
+\beamer@sectionintoc {3}{Função afim e função quadrática}{14}{0}{3}
+\beamer@sectionintoc {4}{Questões Extras}{22}{0}{4}
+\beamer@sectionintoc {5}{Gabarito}{27}{0}{5}
