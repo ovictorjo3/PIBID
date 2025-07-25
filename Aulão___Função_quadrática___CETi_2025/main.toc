@@ -3,4 +3,4 @@
 \beamer@sectionintoc {2}{Função Quadrática}{7}{0}{2}
 \beamer@sectionintoc {3}{Função afim e função quadrática}{14}{0}{3}
 \beamer@sectionintoc {4}{Questões Extras}{22}{0}{4}
-\beamer@sectionintoc {5}{Gabarito}{27}{0}{5}
+\beamer@sectionintoc {5}{Gabarito}{28}{0}{5}

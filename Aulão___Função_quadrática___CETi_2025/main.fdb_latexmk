@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1753480341.78867 "/home/ovictorjo/Documents/GitHub/PIBID/Aulão___Função_quadrática___CETi_2025/main.tex" "main.pdf" "main" 1753480345.69509 0
+["pdflatex"] 1753483505.28242 "/home/ovictorjo/Documents/GitHub/PIBID/Aulão___Função_quadrática___CETi_2025/main.tex" "main.pdf" "main" 1753483509.39808 0
   "/etc/texmf/web2c/texmf.cnf" 1748796460.87279 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ovictorjo/Documents/GitHub/PIBID/Aulão___Função_quadrática___CETi_2025/main.tex" 1753494676 15573 2f7f80ffdbcc4909721395e5d32284fa ""
+  "/home/ovictorjo/Documents/GitHub/PIBID/Aulão___Função_quadrática___CETi_2025/main.tex" 1753483457.51276 16631 818f22a6fb43c4167aaa72015228e3b9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsi1095.tfm" 1136768653 3584 1a0353d13d3e702865b76e3b1c321b5b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss0500.tfm" 1136768653 3584 3cb5b0e5e7e89823423413806ab1d938 ""
@@ -223,14 +223,15 @@
   "imagens/logo.png" 1753494678 39870 98a5031b623dfcbdcaa3c34b2b0ca5b6 ""
   "imagens/q1.png" 1753494678 44975 b226815b721f529ae5d8bf91ff3269d9 ""
   "imagens/q2.png" 1753494678 86033 5ce60923604ad199149ba747158f02de ""
+  "imagens/q20.png" 1753482665.44283 28921 b6d8389ecb90730a292dff06257e0647 ""
   "imagens/uea-macro-2017(2).png" 1753494678 12981 53de57cd53e9dafecfb15b46f4a61ac9 ""
   "imagens/uea-macro-2018.png" 1753494678 14973 35dde36f3d176f5adf819acf0552ae01 ""
   "imagens/uea-macro-2019.png" 1753494676 14167 02d609dc84afff34ebda0f36a8322a8c ""
   "imagens/uea-macro-2020.png" 1753494676 10660 aed466a5752eefdb5ea5974f0bfcfd36 ""
-  "main.aux" 1753480345.52757 5493 5c605e0fe85ccf8126f070bd6c39347d "pdflatex"
-  "main.nav" 1753480345.52957 3533 8e27ae84c71a69436e08c94a0bf0fc0e "pdflatex"
-  "main.out" 1753480345.52957 679 5cef53a278ef6efea64a557354e2f704 "pdflatex"
-  "main.tex" 1753494676 15573 2f7f80ffdbcc4909721395e5d32284fa ""
+  "main.aux" 1753483509.24774 5621 68394b8869afeea7da361e1a3601a698 "pdflatex"
+  "main.nav" 1753483509.24974 3625 67abc8f6c12f274de63b4a70bdec79df "pdflatex"
+  "main.out" 1753483509.24974 679 5cef53a278ef6efea64a557354e2f704 "pdflatex"
+  "main.tex" 1753483457.51276 16631 818f22a6fb43c4167aaa72015228e3b9 ""
   (generated)
   "main.aux"
   "main.log"

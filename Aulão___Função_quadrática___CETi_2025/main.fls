@@ -445,6 +445,11 @@ INPUT ./imagens/IFPE 2019.png
 INPUT ./imagens/IFPE 2019.png
 INPUT ./imagens/IFPE 2019.png
 INPUT ./imagens/IFPE 2019.png
+INPUT ./imagens/q20.png
+INPUT ./imagens/q20.png
+INPUT ./imagens/q20.png
+INPUT ./imagens/q20.png
+INPUT ./imagens/q20.png
 OUTPUT main.nav
 OUTPUT main.toc
 OUTPUT main.snm
