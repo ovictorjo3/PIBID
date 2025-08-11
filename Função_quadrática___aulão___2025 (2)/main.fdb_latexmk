@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1754875365.33345 "/home/ovictorjo/Documents/GitHub/PIBID/Função_quadrática___aulão___2025 (2)/main.tex" "main.pdf" "main" 1754875369.71992 0
+["pdflatex"] 1754875579.99011 "/home/ovictorjo/Documents/GitHub/PIBID/Função_quadrática___aulão___2025 (2)/main.tex" "main.pdf" "main" 1754875584.60165 0
   "/etc/texmf/web2c/texmf.cnf" 1748796460.87279 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ovictorjo/Documents/GitHub/PIBID/Função_quadrática___aulão___2025 (2)/main.tex" 1754889694 13502 cf3d9928c940772b936613e92d09ca1b ""
+  "/home/ovictorjo/Documents/GitHub/PIBID/Função_quadrática___aulão___2025 (2)/main.tex" 1754875579.63109 13502 54b68f57ef7f8aa732eb6679e6dc7a31 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsi1095.tfm" 1136768653 3584 1a0353d13d3e702865b76e3b1c321b5b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss0500.tfm" 1136768653 3584 3cb5b0e5e7e89823423413806ab1d938 ""
@@ -230,10 +230,10 @@
   "imagens/q20.png" 1754889696 28921 b6d8389ecb90730a292dff06257e0647 ""
   "imagens/uea-2015.png" 1754889696 8825 cd667cde1eac854f2b50f55fcfe718d2 ""
   "imagens/uea-macro-2017(2).png" 1754889696 12981 53de57cd53e9dafecfb15b46f4a61ac9 ""
-  "main.aux" 1754875369.55766 4339 38f72289c24d278b289fe2bb4fdf6f14 "pdflatex"
-  "main.nav" 1754875369.56066 2799 404f80defa1f5d87c213e16741494e44 "pdflatex"
-  "main.out" 1754875369.55966 299 c0aa6416af4d674d8666393c2604ae26 "pdflatex"
-  "main.tex" 1754889694 13502 cf3d9928c940772b936613e92d09ca1b ""
+  "main.aux" 1754875584.3722 4339 38f72289c24d278b289fe2bb4fdf6f14 "pdflatex"
+  "main.nav" 1754875584.3762 2799 404f80defa1f5d87c213e16741494e44 "pdflatex"
+  "main.out" 1754875584.3752 299 c0aa6416af4d674d8666393c2604ae26 "pdflatex"
+  "main.tex" 1754875579.63109 13502 54b68f57ef7f8aa732eb6679e6dc7a31 ""
   (generated)
   "main.aux"
   "main.log"
