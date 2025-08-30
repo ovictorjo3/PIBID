@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Paradoxo de Monty Hall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Paradoxo de Monty Hall</h1>
+  <p id="instruction">Escolha uma porta clicando nela!</p>
+
+  <div id="game">
+    <div class="door" data-index="0">
+      <img src="imagens/porta.png" alt="Porta 1">
+      <span class="door-label">Porta 1</span>
+    </div>
+    <div class="door" data-index="1">
+      <img src="imagens/porta.png" alt="Porta 2">
+      <span class="door-label">Porta 2</span>
+    </div>
+    <div class="door" data-index="2">
+      <img src="imagens/porta.png" alt="Porta 3">
+      <span class="door-label">Porta 3</span>
+    </div>
+  </div>
+
+  <div id="controls" style="display:none;">
+    <button id="stay">Manter</button>
+    <button id="switch">Trocar</button>
+  </div>
+
+  <div id="message"></div>
+  <button id="restart" style="display:none;">Reiniciar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
