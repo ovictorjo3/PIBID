@@ -27,98 +27,108 @@ h1 {
   flex-wrap: wrap;
 }
 
-/* ALTERAÇÃO PRINCIPAL: Container para a imagem com proporção fixa */
 .door {
-  width: 150px;
-  height: 240px;
+  width: 100px;
+  height: 300px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   display: flex;
-  flex-direction: column; /* Mudei para column para separar imagem e número */
-  justify-content: flex-start; /* Alinhar ao topo */
+  flex-direction: column; 
+  justify-content: flex-start;  
   align-items: center;
-  border: 3px solid #ddd;
+  border: 2px solid #ddd;
   transition: all 0.3s ease;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
   position: relative;
-  padding: 10px;
+  padding: 15px;
 }
 
-/* Container específico para a imagem */
+
 .door-image-container {
+  flex: 1;                     
+  display: flex;
+  justify-content: center;     
+  align-items: center;         
   width: 100%;
-  height: 180px; /* Altura fixa para a imagem */
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+
+.door img {
+  max-width: 90%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Container alternativo para quando não há imagem */
+.door-placeholder {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  border-radius: 6px;
-  background: #f8f8f8;
-}
-
-/* ALTERAÇÃO CRÍTICA: Mantém a proporção original da imagem */
-.door img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; /* Alterado de 'cover' para 'contain' - isso evita distorção */
-  transition: transform 0.3s ease;
+  font-size: 5em;     /* Aumentei o tamanho do placeholder */
+  color: #7e57c2;
+  background: linear-gradient(135deg, #d1c4e9, #b39ddb);
+  border-radius: 8px;
 }
 
 .door:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px); /* Efeito mais pronunciado */
   border-color: #0077cc;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
 }
 
 .door:hover img {
-  transform: scale(1.05);
+  transform: scale(1.08); 
 }
 
 .door.selected {
   border: 3px solid #0077cc;
-  box-shadow: 0 0 15px rgba(0,119,204,0.4);
+  box-shadow: 0 0 20px rgba(0,119,204,0.5);
 }
 
-/* ALTERAÇÃO: Adicionado sombreamento ao texto das portas */
 .door-label {
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: bold;
   color: #0077cc;
-  font-size: 1.1em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombreamento adicionado */
-  padding: 3px 8px;
-  border-radius: 5px;
+  font-size: 1.3em;   
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+  padding: 5px 12px;
+  border-radius: 8px;
   background: rgba(255, 255, 255, 0.7);
 }
 
 #controls {
-  margin: 20px;
+  margin: 25px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 button {
-  padding: 12px 25px;
-  font-size: 1em;
+  padding: 14px 28px;
+  font-size: 1.1em;
   border: none;
   background-color: #0077cc;
   color: white;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 button:hover:not(:disabled) {
   background-color: #005fa3;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 button:disabled {
@@ -129,25 +139,25 @@ button:disabled {
 }
 
 #message {
-  margin: 20px;
-  font-size: 1.2em;
+  margin: 25px;
+  font-size: 1.3em;
   font-weight: bold;
   color: #222;
-  min-height: 30px;
-  padding: 10px;
-  border-radius: 8px;
+  min-height: 40px;
+  padding: 12px;
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.7);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Sombreamento também na mensagem */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
 }
 
 .door.revealed {
   border: 3px solid #ff4444;
-  box-shadow: 0 0 15px rgba(255,68,68,0.4);
+  box-shadow: 0 0 20px rgba(255,68,68,0.5);
 }
 
 .door.winner {
   border: 3px solid #00cc66;
-  box-shadow: 0 0 15px rgba(0,204,102,0.4);
+  box-shadow: 0 0 25px rgba(0,204,102,0.6);
   animation: pulse 1.5s infinite;
 }
 
@@ -157,31 +167,60 @@ button:disabled {
   100% { transform: scale(1); }
 }
 
-/* Media queries para responsividade */
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
   .door {
-    width: 120px;
-    height: 200px;
+    width: 180px;
+    height: 400px;
   }
   
   .door-image-container {
-    height: 150px;
+    height: 310px;
+  }
+  
+  .door-label {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .door {
+    width: 150px;
+    height: 340px;
+  }
+  
+  .door-image-container {
+    height: 260px;
+  }
+  
+  .door img {
+    max-width: 85%;
+    max-height: 85%;
   }
   
   #game {
     gap: 15px;
     margin: 20px 10px;
   }
+  
+  .door-label {
+    font-size: 1.1em;
+  }
 }
 
 @media (max-width: 480px) {
   .door {
-    width: 100px;
-    height: 170px;
+    width: 130px;
+    height: 300px;
   }
   
   .door-image-container {
-    height: 130px;
+    height: 230px;
+  }
+  
+  .door img {
+    max-width: 80%;
+    max-height: 80%;
   }
   
   h1 {
@@ -193,7 +232,13 @@ button:disabled {
   }
   
   .door-label {
+    margin-top: 10px; 
     font-size: 1em;
-    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.2); /* Sombreamento mais suave em mobile */
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.2); 
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 1em;
   }
 }
