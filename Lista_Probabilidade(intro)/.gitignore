@@ -1,0 +1,19 @@
+# Arquivos temporários do LaTeX
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+*.bbl
+*.blg
+*.nav
+*.snm
+
+# Pasta de temporários
+temp/
+
+# VS Code
+.vscode/
+
