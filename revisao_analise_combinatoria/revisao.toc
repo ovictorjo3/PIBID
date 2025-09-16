@@ -1,0 +1,3 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{Aplicações}{2}{0}{1}
+\beamer@sectionintoc {2}{Principio Aditivo de contagem}{9}{0}{2}
