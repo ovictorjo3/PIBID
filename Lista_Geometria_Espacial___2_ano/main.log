@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.1)  7 OCT 2025 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.1)  7 OCT 2025 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -452,10 +452,10 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<q3.png, id=1, 184.69pt x 291.0875pt>
-File: q3.png Graphic file (type png)
-<use q3.png>
-Package pdftex.def Info: q3.png  used on input line 77.
+<imagem/q3.png, id=1, 184.69pt x 291.0875pt>
+File: imagem/q3.png Graphic file (type png)
+<use imagem/q3.png>
+Package pdftex.def Info: imagem/q3.png  used on input line 77.
 (pdftex.def)             Requested size: 110.81483pt x 174.65384pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
@@ -463,56 +463,56 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-<q11.png, id=3, 318.18875pt x 266.9975pt>
-File: q11.png Graphic file (type png)
-<use q11.png>
-Package pdftex.def Info: q11.png  used on input line 92.
+<imagem/q11.png, id=3, 318.18875pt x 266.9975pt>
+File: imagem/q11.png Graphic file (type png)
+<use imagem/q11.png>
+Package pdftex.def Info: imagem/q11.png  used on input line 92.
 (pdftex.def)             Requested size: 190.9147pt x 160.19972pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc} <./q3.png> <./q11.png>]
-<q16.png, id=16, 243.91125pt x 129.48375pt>
-File: q16.png Graphic file (type png)
-<use q16.png>
-Package pdftex.def Info: q16.png  used on input line 140.
+st/fonts/enc/dvips/base/8r.enc} <./imagem/q3.png> <./imagem/q11.png>]
+<imagem/q16.png, id=16, 243.91125pt x 129.48375pt>
+File: imagem/q16.png Graphic file (type png)
+<use imagem/q16.png>
+Package pdftex.def Info: imagem/q16.png  used on input line 140.
 (pdftex.def)             Requested size: 146.34787pt x 77.69083pt.
-<q7.png, id=17, 296.10625pt x 213.79875pt>
-File: q7.png Graphic file (type png)
-<use q7.png>
-Package pdftex.def Info: q7.png  used on input line 166.
+<imagem/q7.png, id=17, 296.10625pt x 213.79875pt>
+File: imagem/q7.png Graphic file (type png)
+<use imagem/q7.png>
+Package pdftex.def Info: imagem/q7.png  used on input line 166.
 (pdftex.def)             Requested size: 177.66512pt x 128.28023pt.
-<q1-fig1.png, id=18, 249.93375pt x 210.7875pt>
-File: q1-fig1.png Graphic file (type png)
-<use q1-fig1.png>
-Package pdftex.def Info: q1-fig1.png  used on input line 192.
+<imagem/q1-fig1.png, id=18, 249.93375pt x 210.7875pt>
+File: imagem/q1-fig1.png Graphic file (type png)
+<use imagem/q1-fig1.png>
+Package pdftex.def Info: imagem/q1-fig1.png  used on input line 192.
 (pdftex.def)             Requested size: 149.9614pt x 126.47346pt.
-<q1-fig2.png, id=19, 234.8775pt x 296.10625pt>
-File: q1-fig2.png Graphic file (type png)
-<use q1-fig2.png>
-Package pdftex.def Info: q1-fig2.png  used on input line 196.
+<imagem/q1-fig2.png, id=19, 234.8775pt x 296.10625pt>
+File: imagem/q1-fig2.png Graphic file (type png)
+<use imagem/q1-fig2.png>
+Package pdftex.def Info: imagem/q1-fig2.png  used on input line 196.
 (pdftex.def)             Requested size: 140.92758pt x 177.66512pt.
- [2 <./q16.png> <./q7.png> <./q1-fig1.png>]
-<q24.png, id=27, 283.0575pt x 163.61125pt>
-File: q24.png Graphic file (type png)
-<use q24.png>
-Package pdftex.def Info: q24.png  used on input line 222.
+ [2 <./imagem/q16.png> <./imagem/q7.png> <./imagem/q1-fig1.png>]
+<imagem/q24.png, id=27, 283.0575pt x 163.61125pt>
+File: imagem/q24.png Graphic file (type png)
+<use imagem/q24.png>
+Package pdftex.def Info: imagem/q24.png  used on input line 222.
 (pdftex.def)             Requested size: 169.8358pt x 98.1675pt.
-<q5.png, id=28, 144.54pt x 266.9975pt>
-File: q5.png Graphic file (type png)
-<use q5.png>
-Package pdftex.def Info: q5.png  used on input line 249.
+<imagem/q5.png, id=28, 144.54pt x 266.9975pt>
+File: imagem/q5.png Graphic file (type png)
+<use imagem/q5.png>
+Package pdftex.def Info: imagem/q5.png  used on input line 249.
 (pdftex.def)             Requested size: 86.72466pt x 160.19972pt.
- [3 <./q1-fig2.png> <./q24.png> <./q5.png>]
-<q30.png, id=36, 190.7125pt x 237.88875pt>
-File: q30.png Graphic file (type png)
-<use q30.png>
-Package pdftex.def Info: q30.png  used on input line 276.
+ [3 <./imagem/q1-fig2.png> <./imagem/q24.png> <./imagem/q5.png>]
+<imagem/q30.png, id=36, 190.7125pt x 237.88875pt>
+File: imagem/q30.png Graphic file (type png)
+<use imagem/q30.png>
+Package pdftex.def Info: imagem/q30.png  used on input line 276.
 (pdftex.def)             Requested size: 114.42838pt x 142.73433pt.
-<q31.png, id=37, 374.39874pt x 184.69pt>
-File: q31.png Graphic file (type png)
-<use q31.png>
-Package pdftex.def Info: q31.png  used on input line 291.
+<imagem/q31.png, id=37, 374.39874pt x 184.69pt>
+File: imagem/q31.png Graphic file (type png)
+<use imagem/q31.png>
+Package pdftex.def Info: imagem/q31.png  used on input line 291.
 (pdftex.def)             Requested size: 224.64098pt x 110.81483pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 295--296
@@ -549,7 +549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-[4 <./q30.png> <./q31.png>]
+[4 <./imagem/q30.png> <./imagem/q31.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
@@ -579,26 +579,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
-<qUFRS.png, id=43, 367.3725pt x 378.41376pt>
-File: qUFRS.png Graphic file (type png)
-<use qUFRS.png>
-Package pdftex.def Info: qUFRS.png  used on input line 406.
+<imagem/qUFRS.png, id=43, 367.3725pt x 378.41376pt>
+File: imagem/qUFRS.png Graphic file (type png)
+<use imagem/qUFRS.png>
+Package pdftex.def Info: imagem/qUFRS.png  used on input line 406.
 (pdftex.def)             Requested size: 220.42519pt x 227.05pt.
 [5]
-<UFRJ-CONE.png, id=47, 523.9575pt x 422.57875pt>
-File: UFRJ-CONE.png Graphic file (type png)
-<use UFRJ-CONE.png>
-Package pdftex.def Info: UFRJ-CONE.png  used on input line 421.
+<imagem/UFRJ-CONE.png, id=47, 523.9575pt x 422.57875pt>
+File: imagem/UFRJ-CONE.png Graphic file (type png)
+<use imagem/UFRJ-CONE.png>
+Package pdftex.def Info: imagem/UFRJ-CONE.png  used on input line 421.
 (pdftex.def)             Requested size: 261.9781pt x 211.28885pt.
 
 Overfull \hbox (2.36739pt too wide) in paragraph at lines 421--422
  [] 
  []
 
-<einstein_2025.png, id=48, 229.60782pt x 310.91156pt>
-File: einstein_2025.png Graphic file (type png)
-<use einstein_2025.png>
-Package pdftex.def Info: einstein_2025.png  used on input line 437.
+<imagem/einstein_2025.png, id=48, 229.60782pt x 310.91156pt>
+File: imagem/einstein_2025.png Graphic file (type png)
+<use imagem/einstein_2025.png>
+Package pdftex.def Info: imagem/einstein_2025.png  used on input line 437.
 (pdftex.def)             Requested size: 160.72437pt x 217.6366pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 441--442
@@ -620,23 +620,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
-<paiva-aquario.png, id=49, 491.8375pt x 329.23pt>
-File: paiva-aquario.png Graphic file (type png)
-<use paiva-aquario.png>
-Package pdftex.def Info: paiva-aquario.png  used on input line 453.
+<imagem/paiva-aquario.png, id=49, 491.8375pt x 329.23pt>
+File: imagem/paiva-aquario.png Graphic file (type png)
+<use imagem/paiva-aquario.png>
+Package pdftex.def Info: imagem/paiva-aquario.png  used on input line 453.
 (pdftex.def)             Requested size: 245.91814pt x 164.6146pt.
-[6 <./qUFRS.png> <./UFRJ-CONE.png> <./einstein_2025.png>]
-<fuvest-cubo.png, id=56, 245.91875pt x 205.76875pt>
-File: fuvest-cubo.png Graphic file (type png)
-<use fuvest-cubo.png>
-Package pdftex.def Info: fuvest-cubo.png  used on input line 473.
+[6 <./imagem/qUFRS.png> <./imagem/UFRJ-CONE.png> <./imagem/einstein_2025.png>]
+<imagem/fuvest-cubo.png, id=56, 245.91875pt x 205.76875pt>
+File: imagem/fuvest-cubo.png Graphic file (type png)
+<use imagem/fuvest-cubo.png>
+Package pdftex.def Info: imagem/fuvest-cubo.png  used on input line 473.
 (pdftex.def)             Requested size: 172.14194pt x 144.03712pt.
-<ulbra-rs.png, id=57, 319.1925pt x 178.6675pt>
-File: ulbra-rs.png Graphic file (type png)
-<use ulbra-rs.png>
-Package pdftex.def Info: ulbra-rs.png  used on input line 489.
+<imagem/ulbra-rs.png, id=57, 319.1925pt x 178.6675pt>
+File: imagem/ulbra-rs.png Graphic file (type png)
+<use imagem/ulbra-rs.png>
+Package pdftex.def Info: imagem/ulbra-rs.png  used on input line 489.
 (pdftex.def)             Requested size: 191.51697pt x 107.20131pt.
- [7 <./paiva-aquario.png> <./fuvest-cubo.png> <./ulbra-rs.png>] (./main.aux)
+
+[7 <./imagem/paiva-aquario.png> <./imagem/fuvest-cubo.png> <./imagem/ulbra-rs.p
+ng>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -644,7 +646,7 @@ L3 programming layer <2024-01-22>
  ) 
 Here is how much of TeX's memory you used:
  5794 strings out of 474222
- 87532 string characters out of 5748734
+ 88316 string characters out of 5748734
  1943975 words of memory out of 5000000
  27962 multiletter control sequences out of 15000+600000
  600560 words of font info for 113 fonts, out of 8000000 for 9000
