@@ -1,0 +1,423 @@
+\documentclass[12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{siunitx}
+\usepackage{url}
+
+
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} %times new roman
+
+
+\geometry{a4paper, margin=1.2cm}
+\setlength{\parindent}{0cm}
+
+%\newcommand{\vermelho}[1]{{\color{red}#1}}
+% implementa contador
+% Definindo o contador e o comando de questão
+\newcounter{questao}
+\newcommand{\novaquestao}[1]{%
+  \stepcounter{questao}%
+  \subsection*{Questão \thequestao\ (#1)}%
+}
+
+\title{LISTA DE EXERCÍCIOS SOBRE EQUAÇÃO E FUNÇÃO LOGARÍTMICA}
+\author{CETI BILÍNGUE GILBERTO MESTRINHO DE MEDEIROS RAPOSO}
+\date{}
+
+\begin{document}
+    % Cabeçalho reduzido
+    \thispagestyle{empty}
+    \vspace{0.5cm}
+    \begin{center}
+        \large
+        \begin{tabular}{|l l|}
+            \hline
+            \textbf{ESCOLA:} & EETI GILBERTO MESTRINHO DE MEDEIROS RAPOSO \\ 
+            \textbf{ALUNA(O):} & \underline{\hspace{7cm}} \textbf{SÉRIE:} \underline{\hspace{1.5cm}} \textbf{TURMA:} \underline{\hspace{1.5cm}} \\
+            \textbf{PROFESSOR:} & \underline{\hspace{7cm}} \textbf{DATA:} \underline{\hspace{1.5cm}}/\underline{\hspace{1.5cm}}/\underline{\hspace{1.5cm}} \\
+            \textbf{VALOR:} & \underline{\hspace{3cm}} \textbf{NOTA:} \underline{\hspace{1.5cm}} \\
+            \hline
+        \end{tabular}
+    \end{center}
+    \vspace{0.5cm}
+    
+    % Título manual
+    \begin{center}
+        \Large\textbf{LISTA DE EXERCÍCIOS SOBRE EQUAÇÃO E FUNÇÃO LOGARÍTMICA}
+    \end{center}
+    
+    \vspace{0.3cm}
+    
+    \section*{ATENÇÃO:}
+    \begin{itemize}[noitemsep]
+        \item Resolva toda a lista, justificando cada questão.
+        \item Colocar o nome completo e identificação no cabeçalho.
+        \item Faça na lista, se e somente se a resolução de cada questão couber em cada questão.
+        \item Há apenas uma opção correta em cada questão de múltipla escolha.
+        \item Caso opte por fazer numa folha à parte, identifique cada questão.
+    \end{itemize}
+    % Início das colunas com linha vertical
+    %\mostravermelhotrue
+    \begin{multicols}{2}
+        \columnseprule=0.4pt
+        \columnsep=20pt
+        \large
+        
+        \novaquestao{UFAM - PSC 2025} O nível de intensidade sonora é medido em decibéis(dB) e segue a fórmula:
+        
+        	\begin{center}
+        		$L=10 \ . \ \log\left(\dfrac{I}{I_{0}}\right)$    
+        	\end{center} onde:
+        
+        	\begin{itemize}
+        		\item L é o nível sonoro em decibéis.
+        		\item I é a intensidade do som.
+        		\item $I_{0}$ é a intensidade mínima perceptível pelo ouvido humano.
+        	\end{itemize} Em um dia tranquilo, o ruído em uma biblioteca foi medido em \textbf{40 dB}, enquanto, em uma avenida movimentada, o ruído atingiu \textbf{70 dB}. Com base nessa informação, é correto afirmar que o som na avenida movimentada é
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item $1000$ vezes maior que o da biblioteca. %
+        		\item $1,75$ vezes maior que o da biblioteca.
+        		\item $3$ vezes maior que o da biblioteca.
+        		\item $10$ vezes maior que o da biblioteca.
+        		\item $100$ vezes maior que o da biblioteca.
+        	\end{enumerate}
+        
+        \novaquestao{UFAM - PSC 2024} Estudos demográficos revelam que a população de certo país, no ano zero, é $f_{0}$ e, decorridos $t$ anos, a população poderá ser estimada pela função:
+        
+        	\begin{center}
+        		$f\left( t\right)=f_{0}\ .\ e^{0,05t}$
+        	\end{center} Considerando $\ln(3) = 1,10$, podemos afirmar que a população desse país deverá triplicar quando decorrerem, aproximadamente,
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item 10 anos
+        		\item 16 anos
+        		\item 18 anos
+        		\item 20 anos
+        		\item 22 anos %
+        	\end{enumerate}
+        	
+        \novaquestao{UFAM - PSC 2007} Considere as funções $f\left( x\right)=\log_3\left( 9x^{2}\right)$ e $g\left( x\right)=\log_3\left({1}/{x}\right)$, definidas para todo $x > 0$. Então, $1+f(x)+g(x)$ é igual a:
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item $1+\log_3(x)$
+        		\item $3+\log_3(x)$ %
+        		\item $3-\log_3(x)$
+        		\item $1-\log_3(x)$
+        		\item $3\log_3(x)$
+        	\end{enumerate}
+        
+        \novaquestao{UFAM - PSC 2008} Dada a equação $\log_3(x)+\log_3(x^{2})+\log_3(x^{3})+...+\log_3(x^{40})=2460$. Então x é igual a:
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item $81$
+        		\item $27$ %
+        		\item $9$
+        		\item $3$ 
+        		\item $243$
+        	\end{enumerate}
+        
+        \novaquestao{UFAM 2023} O domínio da função $f(x)=\log_{(x-5)}(x+3)$ é o conjunto:
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item $D(f)=\left\{x \in \mathbb{R} \ | \ x \ge 3 \ \text{e} \ x \neq -3 \right\}$
+        		\item $D(f)=\left\{x \in \mathbb{R} \ | \ x>5 \ \text{e} \ x \neq 6 \right\}$
+        		\item $D(f)=\left\{x \in \mathbb{R} \ | \ x \ge 5 \ \text{e} \ x \neq 6 \right\}$
+        		\item $D(f)=\left\{x \in \mathbb{R} \ | \ x>5 \ \text{e} \ x=-3 \right\}$
+        		\item $D(f)=\left\{x \in \mathbb{R} \ | \ x>3 \ \text{e} \ x \neq 6 \right\}$
+        	\end{enumerate}
+        
+        \novaquestao{UEA} Uma planta, inicialmente com 15 cm de altura, teve seu crescimento observado durante 90 dias. Nesse período seu crescimento obedeceu à função $f\left( x\right)=15+\log_2(x)$, sendo $f\left( x\right)$ a altura, em centímetros, e x o número de dias, com $1 \le x \le 90$. O número de dias necessários para que a altura dessa planta chegasse a 21 cm foi:
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item 62
+        		\item 66
+        		\item 60
+        		\item 68
+        		\item 64 %
+        	\end{enumerate}
+        
+        \novaquestao{UEA} Ao estudar um exemplar de uma espécie de peixe ornamental, os pesquisadores constataram que, no 1º dia de observação, o comprimento do peixe era de 2 cm e que, até o 10º dia de observação, o comprimento desse peixe obedeceu à função $y=2+\log_2(x)$, sendo y o comprimento, em cm, e x o número de dias, com $1 \le x \le 10$.Usando $\log(2) \approx 0,30$ e $\log(3) \approx 0,48$, é correto afirmar que o comprimento do peixe, em cm, no 6º dia, era:
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item 4,8
+        		\item 4,6 %
+        		\item 4,4
+        		\item 4,2
+        		\item 4,0
+        	\end{enumerate}
+        	
+        	
+        \novaquestao{UEA 2021} Determinado tipo de colônia de bactérias foi observada por 12 dias. Nesse período, o crescimento da colônia obedeceu à função $f(x)=\text{a}+2\log_{10}(x)$, sendo a um número real não nulo, $f(x)$ o número de bactérias da colônia, em milhares, e x o número de dias, com $x \in \left[1,\ 12\right]$. Se no 1º dia de observação havia 1000 bactérias, o número de bactérias será de 3000 no dia:
+        
+        
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item 9
+        		\item 8
+        		\item 10 %
+        		\item 7
+        		\item 6
+        	\end{enumerate}
+        	
+        \novaquestao{UEA-SIS 2022} Em um sistema de coordenadas cartesianas, considere o gráfico da função $f(x)=\log_{2}(x)$, um ponto A de abcissa ${1}/{2}$ e os pontos B e C, ambos de abcissa 8, conforme mostra a figura.
+        
+        	\begin{center}
+        		\includegraphics[scale=0.4]{imagens/q-uea-sis2022.png}
+        	\end{center} Nesse sistema, sabendo que os pontos A e C têm a mesma ordenada, a diferença entre as ordenadas dos pontos B e C é:
+        	
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item 2,5
+        		\item 3
+        		\item 3,5
+        		\item 4 %
+        		\item 4,5
+        	\end{enumerate}
+        	
+        \novaquestao{ENEM 2016} Uma liga metálica sai do forno a uma temperatura de $ \qty{3.000}{\degreeCelsius}$ e diminui 1\% de sua temperatura a cada 30 min. Use $0,477$ como aproximação para $\log_{10}(3)$ e $1,041$ como aproximação para $\log_{10}(11)$. O tempo decorrido, em hora, até que a liga atinja $\qty{30}{\degreeCelsius}$ é mais próximo de:
+        
+        \begin{enumerate}[label=(\Alph*), noitemsep]
+        	\item 22
+        	\item 50
+        	\item 100
+        	\item 200 %
+        	\item 400
+        \end{enumerate}
+        
+        \novaquestao{ENEM 2017} Para realizar a viagem dos
+        sonhos, uma pessoa precisava fazer um empréstimo no
+        valor de R\$ 5.000, 00. Para pagar as prestações, dispõe de, no
+        máximo, R\$ 400,00 mensais. Para esse valor de empréstimo,
+        o valor da prestação (P) é calculado em função do número
+        de prestações (n) segundo a fórmula:
+        
+        \begin{center}
+        	$P=\dfrac{5.000 \times 1,013^{n} \times 0,013}{\left( 1,013^{n}-1\right)}$
+        \end{center} Se necessário, utilize 0,005 como aproximação para $\log(1,013)$; 2,602 como aproximação para $\log(400)$; 2,525 como
+        aproximação para $\log(335).$ \\ \
+        
+        De acordo com a fórmula dada, o menor número de parcelas cujos valores não comprometem o limite definido pela pessoa é:
+        
+        \begin{enumerate}[label=(\Alph*), noitemsep]
+        	\item 12
+        	\item 14
+        	\item 15
+        	\item 16 %
+        	\item 17 
+        \end{enumerate}
+        
+        \novaquestao{ENEM 2016} Em 2011, um terremoto de magnitude 9,0 na escala Richter causou um devastador tsunami no Japão, provocando um alerta na usina nuclear de
+        Fukushima. Em 2013, outro terremoto, de magnitude 7,0 na mesma escala, sacudiu Sichuan (sudoeste da China), deixando centenas de mortos e milhares de feridos. A magnitude de um terremoto na escala Richter pode ser calculada por:
+        
+        \begin{center}
+        	$M=\dfrac{2}{3}\log\left(\dfrac{E}{E_{0}}\right)$,
+        \end{center}
+        
+        \begin{flushleft}
+        	\noindent
+        	Disponível em: \url{www.terra.com.br}. Acesso em: 15 ago. 2013 (adaptado)
+        \end{flushleft} Qual a relação entre $E_{1}$ e $E_{2}$?
+        
+        \begin{enumerate}[label=(\Alph*), noitemsep]
+        	\item $E_{1}=E_{2}+2$
+        	\item $E_{1}=10^{2}E_{2}$
+        	\item $E_{1}=10^{3}E_{2}$ %
+        	\item $E_{1}=10^{\frac{9}{7}}E_{2}$
+        	\item $E_{1}={9}/{7}E_{2}$
+        \end{enumerate}
+        
+        \novaquestao{UFRN} Na figura abaixo, estão esboçados os gráficos das funções $y = \log_3(x)$ e $y=x$. O gráfico da função que está representado em azul é simétrico ao gráfico da função $y=\log_3(x)$ em relação à reta de equação $y=x$. A função que corresponde ao gráfico azul é:
+        
+        \begin{center}
+        	\includegraphics[scale=0.7]{imagens/q-ufrn.png}
+        \end{center}
+        
+        \begin{enumerate}[label=(\Alph*), noitemsep]
+        	\item $y={x}/{3}$
+        	\item $y=3x$
+        	\item $y=x^{3}$
+        	\item $y=3^{x}$ %
+        	\item $y=3x+3$
+        \end{enumerate}
+        
+        
+        \novaquestao{ENEM 2015} Um engenheiro projetou um automóvel cujos vidros das portas dianteiras foram desenhados de forma que suas bordas superiores fossem representadas pela curva de equação $y=\log(x)$, conforme a figura.
+        
+        	\begin{center}
+        		\includegraphics[scale=0.6]{imagens/q-enem_janela.png}
+        	\end{center} A forma do vidro foi concebida de modo que o eixo x sempre divida ao meio a altura h do vidro e a base do vidro seja paralela ao eixo x. Obedecendo a essas condições, o
+        	engenheiro determinou uma expressão que fornece a altura h do vidro em função da medida n de sua base, em metros.  \\ \ 
+        	
+        	
+        	A expressão algébrica que determina a altura do vidro é:
+        	
+        	\begin{enumerate}[label=(\Alph*), noitemsep]
+        		\item $2\log\left(\dfrac{n+\sqrt{n^{2}+4}}{2}\right) $ \\   %
+        		\item $\log\left( \dfrac{n+\sqrt{n^{2}+4}}{2}\right) -  \log\left( \dfrac{n+\sqrt{n^{2}-4}}{2}\right)$ \\
+        		\item $\log\left( \dfrac{n+\sqrt{n^{2}+4}}{2}\right)$ \\
+        		\item $\log\left(1+\dfrac{n}{2}\right) + \log\left(1-\dfrac{n}{2}\right) $ \\
+         		\item $\log\left(1+\dfrac{n}{2}\right) - \log\left(1-\dfrac{n}{2}\right) $
+        	\end{enumerate}
+        	
+
+          
+    
+          \novaquestao{UFPR 2019} Um tanque contém uma solução de água e sal cuja concentração está diminuindo devido à adição de mais água. Suponha que a concentração Q(t) de sal no tanque, em gramas por litro (g/L), decorridas
+          t horas após o início da diluição, seja dada por
+          
+          	\begin{center}
+          		$Q(t)=100\ . \ 5^{-0,3t}$
+          	\end{center} Assinale a alternativa que mais se aproxima do tempo
+          	necessário para que a concentração de sal diminua para 50 g/L. Dado: use $\log5 = 0,7$
+          	
+          	\begin{enumerate}[label=(\Alph*), noitemsep]
+          		\item 4 horas e 45 minutos
+          		\item 3 horas e 20 minutos
+          		\item 2 horas e 20 minutos
+          		\item 1 horas e 25 minutos 
+          		\item 20 minutos
+          	\end{enumerate}
+          	
+          	
+          \novaquestao{Farias Brito EAD Medicina}  Na figura a seguir, dois vértices do trapézio sombreado estão no eixo \textbf{x} e os outros dois vértices estão sobre o gráfico da função real $f(x) = \log_k(x)$, com $k>0$ e $k \neq 1$. Sabe-se que o trapézio sombreado tem 30 unidades de área; assim, o valor de $k+P-Q$ é:
+         
+         
+         	\begin{center}
+         		\includegraphics[scale=0.45]{imagens/q-FB.png}
+         	\end{center}
+         	
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item $-20$
+         		\item $-15$ %
+         		\item $10$
+         		\item $15$ 
+         		\item $20$
+         	\end{enumerate}
+         
+         \novaquestao{Farias Brito EAD Medicina} Em 2017 iniciou-se a ocupação de uma região no interior do país, dando origem a uma pequena cidade. Estima-se que a população dessa cidade tenha crescido segundo a função $P=0,1+\log_2(x-2016)$, onde P é a população no ano \textbf{x}, em milhares de habitantes. Considere $\sqrt{2} \approx 1,41$, podemos concluir que a população dessa cidade atingirá a marca dos 3600 habitantes em meados do ano:
+         
+         	
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item $2023$
+         		\item $2025$ 
+         		\item $2027$ %
+         		\item $2029$ 
+         		\item $2031$
+         	\end{enumerate}
+         
+         \novaquestao{Farias Brito EAD Medicina} Fulano aplicou um capital de R$\$ 15000,00$ a juros compostos, pelo período de 4 anos e a uma taxa de $2\%$ am. Ao contabilizar o valor recebido ao final da aplicação, fulano concluiu que o valor corresponde a: \textbf{Dado}: $\log_{1,02}(1,60)=24$
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item R$\$ 36.800,00$
+         		\item R$\$ 37.200,00$
+         		\item R$\$ 39.700,00$
+         		\item R$\$ 37.600,00$
+         		\item R$\$ 38.400,00$ %
+         	\end{enumerate}
+         
+         \novaquestao{EsPCEx 2008} O valor de x para o qual as funções reais $f(x)=2^{x}$ e $g(x)=5^{1-x}$ possuem a mesma imagem é:
+         
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item $\log(2)+1$
+         		\item $\log(2)-1$
+         		\item $1-\log(2)$ %
+         		\item $2\log(2)+1$
+         		\item $1-2\log(2)$ 
+         	\end{enumerate}
+         	
+         \novaquestao{UECE} A função $f(x)=\log_2(x)$, denominada de função logaritmo na base 2, é definida para todo número real positivo x. São bem conhecidas, dentre outras, as seguintes propriedades da função $f$: para cada número real positivo $a$ e para todo número inteiro $n$, verificam-se as igualdades $2^{f\left( a\right)}=a$ e $f\left( a^{n}\right)=n.f\left( a\right)$. Com base nestes fatos e em outros conhecimentos básicos de matemática, é possível concluir-se corretamente que $f\left( 0,03125\right)$ é igual a:
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item $-5$ %
+         		\item $-2$ 
+         		\item $2$ 
+         		\item $5$ 
+         		\item $3$
+         	\end{enumerate}
+         	
+         	
+         	
+         \novaquestao{UFPA} As populações A e B de duas cidades são determinadas em milhares de habitantes pelas funções: $A(t)=\log_4(2+t)^{5}$ e $B(t)=\log_2(2t+4)^{2}$, nas quais a variável $t$ representa o tempo em anos. Essas cidades terão o mesmo número de habitantes no ano $t$, que é igual a:
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item $6$ 
+         		\item $8$ 
+         		\item $10$ 
+         		\item $12$ 
+         		\item $14$ %
+         	\end{enumerate}
+         	
+         	
+         \novaquestao{PUC-RS} O modelo da cobertura que foi colocada no Estádio Beira-Rio está representado na figura abaixo.
+         
+         	\begin{center}
+         		\includegraphics[scale=0.7]{imagens/q-pucrs.png}
+         	\end{center} Colocada devidamente em um plano cartesiano, é possível afirmar que, na forma em que está, a linha em destaque pode ser considerada uma restrição da representação da função dada por:
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item $y=\log(x)$ % 
+         		\item $y=x^{2}$ 
+         		\item $y=|x|$ 
+         		\item $y=\sqrt{-x}$ 
+         		\item $y=10^{x}$ 
+         	\end{enumerate}
+         	
+         	
+         \novaquestao{Unisc-RS 2022} Determinada espécie de eucalipto apresenta uma relação que interliga seu tamanho (altura) com seu tempo de plantio, dada por $h(t)=26+\log_3(1,5t)$, em que h(t) é a altura dada em metros, e t indica o tem-
+         po em anos. Nesse caso, qual é o tempo necessário (em anos) para que a árvore de eucalipto atinja a altura de 28 m?
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item 4
+         		\item 7
+         		\item 2
+         		\item 5
+         		\item 6 %
+         	\end{enumerate}
+         	
+         \novaquestao{UFRGS 2023} O valor de $\log2^{2}+\log2^{3}+\log2^{4}+...+\log2^{50}$ é:
+         
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item $\log2^{1247}$
+         		\item $\log2^{1274}$ %
+         		\item $\log2^{1472}$
+         		\item $\log2^{59}$
+         		\item $\log8^{59}$
+         	\end{enumerate}
+         	
+         \novaquestao{EsSA-MG 2023} A altitude (h) acima do nível do mar, em quilômetros, durante o voo de um avião é dada em função da pressão atmosférica p, em atm, por $h(p)=30.\log_{10}\left( \dfrac{1}{p} \right) $. Em determinado instante, a pressão atmosférica medida pelo altímetro desse avião era de 0,8 atm. Nesse instante, a altitude do avião, em quilômetros, considerando $\log_{10}(2)=0,3$, era de:
+         
+         	\begin{enumerate}[label=(\Alph*), noitemsep]
+         		\item 2
+         		\item 3
+         		\item 6
+         		\item 8
+         		\item 9
+         	\end{enumerate}
+         	
+         	
+         
+         
+         
+         
+         
+         	
+         	
+         	
+         	
+         	
+         	
+    \end{multicols}
+    
+\end{document}
