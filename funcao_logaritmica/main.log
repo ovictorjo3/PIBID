@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  17 FEB 2026 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  17 FEB 2026 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -535,83 +535,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--208
 
  []
 
-<imagens/q-ufrn.png, id=19, 364.36125pt x 291.0875pt>
-File: imagens/q-ufrn.png Graphic file (type png)
-<use imagens/q-ufrn.png>
-Package pdftex.def Info: imagens/q-ufrn.png  used on input line 242.
-(pdftex.def)             Requested size: 255.05113pt x 203.75984pt.
 [3{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./imagens/q-uea-
 sis2022.png>]
-<imagens/q-enem_janela.png, id=25, 333.245pt x 305.14pt>
+<imagens/q-enem_janela.png, id=24, 549.05125pt x 558.085pt>
 File: imagens/q-enem_janela.png Graphic file (type png)
 <use imagens/q-enem_janela.png>
-Package pdftex.def Info: imagens/q-enem_janela.png  used on input line 257.
-(pdftex.def)             Requested size: 199.94853pt x 183.0854pt.
+Package pdftex.def Info: imagens/q-enem_janela.png  used on input line 264.
+(pdftex.def)             Requested size: 219.61661pt x 223.23004pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
  []
 
 
-Overfull \hbox (13.61421pt too wide) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Overfull \hbox (13.61421pt too wide) in paragraph at lines 273--274
 []$[] [] \OMS/ztmcm/m/n/14.4 ^^@ [] []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-[4 <./imagens/q-ufrn.png> <./imagens/q-enem_janela.png>]
-<imagens/q-FB.png, id=31, 605.26125pt x 393.47pt>
+[4 <./imagens/q-enem_janela.png>]
+<imagens/q-ufrn.png, id=29, 364.36125pt x 291.0875pt>
+File: imagens/q-ufrn.png Graphic file (type png)
+<use imagens/q-ufrn.png>
+Package pdftex.def Info: imagens/q-ufrn.png  used on input line 296.
+(pdftex.def)             Requested size: 255.05113pt x 203.75984pt.
+<imagens/q-FB.png, id=30, 605.26125pt x 393.47pt>
 File: imagens/q-FB.png Graphic file (type png)
 <use imagens/q-FB.png>
-Package pdftex.def Info: imagens/q-FB.png  used on input line 296.
+Package pdftex.def Info: imagens/q-FB.png  used on input line 329.
 (pdftex.def)             Requested size: 272.36504pt x 177.05986pt.
 
-Overfull \hbox (12.75432pt too wide) in paragraph at lines 296--297
+Overfull \hbox (12.75432pt too wide) in paragraph at lines 329--330
  [] 
  []
 
-[5 <./imagens/q-FB.png>]
+[5 <./imagens/q-ufrn.png> <./imagens/q-FB.png>]
 <imagens/q-pucrs.png, id=36, 410.53375pt x 246.9225pt>
 File: imagens/q-pucrs.png Graphic file (type png)
 <use imagens/q-pucrs.png>
-Package pdftex.def Info: imagens/q-pucrs.png  used on input line 365.
+Package pdftex.def Info: imagens/q-pucrs.png  used on input line 398.
 (pdftex.def)             Requested size: 287.37166pt x 172.84456pt.
 
-Overfull \hbox (27.76094pt too wide) in paragraph at lines 365--366
+Overfull \hbox (27.76094pt too wide) in paragraph at lines 398--399
  [] 
+ []
+
+[6 <./imagens/q-pucrs.png>]
+Overfull \hbox (15.8805pt too wide) in paragraph at lines 455--459
+[]$ 
+ []
+
+<imagens/q-espcex.png, id=41, 686.565pt x 415.5525pt>
+File: imagens/q-espcex.png Graphic file (type png)
+<use imagens/q-espcex.png>
+Package pdftex.def Info: imagens/q-espcex.png  used on input line 472.
+(pdftex.def)             Requested size: 240.30135pt x 145.44554pt.
+[7]
+<imagens/q-ufjf.png, id=46, 621.32124pt x 400.49625pt>
+File: imagens/q-ufjf.png Graphic file (type png)
+<use imagens/q-ufjf.png>
+Package pdftex.def Info: imagens/q-ufjf.png  used on input line 487.
+(pdftex.def)             Requested size: 248.5241pt x 160.19566pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
+
  []
 
 
 
-[6 <./imagens/q-pucrs.png>] (./main.aux)
+[8 <./imagens/q-espcex.png> <./imagens/q-ufjf.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10231 strings out of 475044
- 219799 string characters out of 5763162
- 615018 words of memory out of 5000000
- 33121 multiletter control sequences out of 15000+600000
+ 10246 strings out of 475044
+ 220169 string characters out of 5763162
+ 609030 words of memory out of 5000000
+ 33136 multiletter control sequences out of 15000+600000
  595572 words of font info for 97 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  73i,9n,80p,583b,734s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -623,10 +644,10 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 277967 bytes).
+Output written on main.pdf (8 pages, 321504 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
