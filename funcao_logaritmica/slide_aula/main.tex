@@ -1,0 +1,299 @@
+\documentclass[12pt]{beamer}
+\usepackage[table,xcdraw]{xcolor}
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+
+\usepackage{ragged2e}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\setbeamertemplate{caption}[numbered]
+\usepackage{hyperref}
+\setbeamercovered{transparent} 
+\setbeamertemplate{navigation symbols}{}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{ragged2e}
+
+\newcounter{exercicio}
+\setcounter{exercicio}{0}
+
+\newcommand{\exercicio}{
+	\stepcounter{exercicio}
+	\textbf{Exercício \theexercicio.}
+}
+
+%referência e citação
+\usepackage[bibstyle=abnt-numeric,citestyle=authoryear,backend=biber,]{biblatex}
+\addbibresource{ref.bib}
+
+\addtobeamertemplate{block alerted}{}{\justifying}
+
+\author[Joao Victor \& Prof. Luiz Claudio]{% 
+Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
+\title[Função Logarítmica]{Função Logarítmica}
+\institute[]{% 
+  \textsuperscript{1} Instituto Federal do Amazonas \\
+  \textsuperscript{2} EETI Bilíngue Gilberto Mestrinho de Medeiros Raposo
+}
+
+\titlegraphic{\includegraphics[width=0.2\textwidth]{imagens/logo_3.jpg}}
+\date{\today} 
+
+
+%\subject{}
+
+% ---------------------------------------------------------
+
+\begin{document}
+\onehalfspacing 
+\justifying 
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{Sumário}
+    \tableofcontents
+\end{frame}
+
+
+\section{Introdução}
+
+	\begin{frame}{Introdução (logaritmo)}
+		
+			\justifying
+			Suponhamos que um caminhão custe hoje R$\$ 100.000,00$ e sofra uma desvalorização de $10\%$ por ano de uso. Depois de quanto tempo de uso o valor do veículo será igual a R$\$ 20.000,00$?
+		
+	\end{frame}
+	
+	
+\section{Definição}
+
+	\begin{frame}{Definição}
+		Sendo $a$ e $b$ números reais e positivos, com $a \neq 1$, chama-se \textbf{logaritmo de b na base a} o expoente $x$ ao qual se deve elevar a base $a$ de modo que a potência $a^{x}$ seja igual a $b$.
+		
+		$$\log_{a}b=x \Leftrightarrow a^{x}=b$$
+		
+		\uncover<2->{
+		\begin{block}{Dizemos que:}
+			\begin{itemize}
+				\item $a$ é a \textbf{base} do logaritmo;
+				\item $b$ é o \textbf{logaritmando};
+				\item $x$ é o \textbf{logaritmo}.
+			\end{itemize}
+		\end{block}
+		}
+	\end{frame}
+
+    \begin{frame}{Exemplos}
+       
+       Vejamos alguns exemplos de logaritmos:
+       
+       \begin{itemize}
+       		\item [a)] $\log_{2}(8)=3, \ \text{pois} \ 2^{3}=8$ \\ 
+       		\uncover<2->{\item [b)] $\log_{3}9=2, \ \text{pois} \ 3^{2}=9 $} \\
+       		\uncover<3->{\item [c)] $\log_{4}1=0, \ \text{pois} \ 4^{0}=1 $} \\
+       		\uncover<4->{\item [d)] $\log_{\frac{1}{2}}8=-3, \ \text{pois} \ \left( \dfrac{1}{2} \right)^{-3}=8 $} \\
+       		\uncover<5->{\item [e)] $\log_{0,5}0,25=2, \ \text{pois} \ \left(0,5 \right)^{2}=0,25 $}
+       	\end{itemize}
+    \end{frame}
+
+    \begin{frame}{Aplicação}
+    	
+    	\begin{alertblock}{\exercicio Calcule, por meio da definição:}
+    		 
+    		\begin{itemize}
+    			\item [a)] $\log_{\sqrt[3]9}3$ \\
+    			\item [b)] $\log_{16}0,25$
+    		\end{itemize}
+    		
+    	\end{alertblock}
+    		
+    		
+    	\begin{alertblock}{\exercicio}
+    		Qual o número real $x$ em que $\log_{x}4=-2$?
+    	\end{alertblock}
+    	
+       
+    \end{frame}
+    
+    
+    \begin{frame}{Convenção importante}
+    	Convencionou-se que, ao escrevermos o logaritmo de um número com a base omitida, estamos nos referindo ao logaritmo desse número em base 10, isto é:
+    	
+    	$$\log x = \log_{10}x$$
+    	
+    	\begin{block}{Assim, por exemplo:}
+    		\begin{itemize}
+    			\item $\log 10.000 = 4,\  \text{pois} \ 10^{4}=10.000 $ \\
+    			\item $\log\dfrac{1}{1000}  = -3, \ \text{pois} \ 10^{-3}=\dfrac{1}{1000}$ \\
+    		\end{itemize}
+    	\end{block}
+    	
+    	\uncover<2->{Os logaritmos em base 10 são conhecidos como \textbf{logaritmos decimais}.}
+    	
+    \end{frame}
+
+    \begin{frame}{Tipos de triângulos}
+        Quanto aos lados, os triângulos se classificam em:
+
+        \begin{center}
+            \includegraphics[scale=0.5]{imagens/triangulos.png}
+        \end{center}
+    \end{frame}
+\section{Desigualdade Triangular}
+
+    \begin{frame}{Desigualdade triangular}
+        \begin{alertblock}{Definição}
+        \justifying
+            Em todo triângulo, a soma dos comprimentos de dois lados é maior que o comprimento do terceiro lado. 
+        \end{alertblock}
+        
+        \pause
+        
+        \begin{block}{Aplicação}
+            Existe triângulo cujos lados medem 5, 8 e 16? Por quê?
+        \end{block}
+
+    \end{frame}
+    
+\section{Verificação: é triângulo?}
+
+    \begin{frame}{Probabilidade Geométrica - Problema do macarrão}
+    \begin{minipage}{\textwidth}
+        \centering
+        \fbox{\begin{minipage}{0.9\textwidth}
+            \vspace{0.3cm}
+            \footnotesize
+            
+            \textbf{O grande desafio:} \\
+            1. Pegue UM fio de espaguete \\
+            2. QUEBRE-EM em 3 partes \textbf{arbitrariamente} \\
+            3. Meça os comprimentos \textbf{a, b, c} \\
+            4. Teste as desigualdades (marque \checkmark\ ou $\times$) \\
+            5. Agora tente FORMAR o triângulo \\
+            6. Se \textbf{TODAS} as desigualdades forem verdadeiras $\rightarrow$ triângulo possível! \\
+            7. Se \textbf{UMA} for falsa $\rightarrow$ triângulo impossível! \\
+            
+            \textbf{Consegue prever antes de tentar montar?} \\
+            \textbf{Regra da Desigualdade Triangular:} \\
+            $a + b > c$ \textbf{e} $a + c > b$ \textbf{e} $b + c > a$
+            \vspace{0.3cm}
+        \end{minipage}}
+    \end{minipage}
+\end{frame}
+
+    \begin{frame}{Aplicação em sala}
+        \begin{table}[h]
+        \centering
+        \small
+        \setlength{\tabcolsep}{8pt}
+        \renewcommand{\arraystretch}{1.5}
+
+            \begin{tabular}{|c|c|c||c|c|c||c|}
+                \hline
+                \textbf{a} & \textbf{b} & \textbf{c} & \textbf{a + b > c} & \textbf{a + c > b} & \textbf{b + c > a} & \textbf{Triângulo?} \\
+                \hline
+                & & & $\square$ & $\square$ & $\square$ & \\
+                \hline
+                & & & $\square$ & $\square$ & $\square$ & \\
+                \hline
+                & & & $\square$ & $\square$ & $\square$ & \\
+                \hline
+                & & & $\square$ & $\square$ & $\square$ & \\
+                \hline
+                & & & $\square$ & $\square$ & $\square$ & \\
+                \hline
+                & & & $\square$ & $\square$ & $\square$ & \\
+                \hline
+            \end{tabular}
+        \end{table}
+    \end{frame}
+
+\section{Problema, probleminhas e \textit{problemão} (OBMEP)}
+
+\begin{frame}{Probleminha: Quem andou mais?}
+
+    \begin{exampleblock}{\textbf{Desafio 01.}}
+        Ruas retas e compridas ligam as casas dos amigos Bruno, Francimar e Robério.
+
+    \begin{itemize}\justifying
+        \item Francimar, em sua caminhada matinal, saiu de sua casa e andou até a casa de Bruno. Em seguida, prosseguiu para a casa de Robério e depois voltou para sua casa.
+        \item Mais tarde, Robério, muito concentrado com um problema de matemática, foi até a casa de Bruno e voltou para sua casa.
+    \end{itemize} Sem conhecer as distâncias entre as casas, é possível saber quem andou mais?
+    
+    \end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Probleminha: Brincando com lápis}
+
+    \begin{exampleblock}{\textbf{Desafio 02.}}
+        \justifying
+        Ana Paula tinha 2 lápis em mãos, cujos comprimentos eram de 5,8 cm e 11,4 cm, respectivamente. Com esses 2 lápis e um terceiro, entre os que tinha em seu estojo, ela começou a formar triângulos que tivessem os seus lápis como lados. Logo ela percebeu que com alguns dos lápis do estojo não era possível formar um triângulo. 
+
+    \vspace{2mm} 
+
+    Determine para que comprimentos do terceiro lápis Ana Paula conseguirá formar um triângulo.
+    \end{exampleblock}
+   
+\end{frame}
+
+\begin{frame}{Problema de Gincana: Isso não é perímetro}
+\begin{exampleblock}{\textbf{Desafio 03.}}
+    Se $\overline{AB}+\overline{BC}=18$, então o perímetro do triângulo $ABC$ \textbf{NÃO} pode ser:
+
+    \begin{itemize}
+        \item [a)] 33
+        \item [b)] 34
+        \item [c)] 35
+        \item [d)] 36
+        \item [e)] Nenhuma das respostas anteriores
+    \end{itemize}
+\end{exampleblock}
+    
+\end{frame}
+
+\begin{frame}{Unicamp - 2024}
+
+    \begin{exampleblock}{\textbf{Desafio 04.}}
+        \justifying
+        Joaquim estava brincando com um graveto, quando acertou uma parede e o graveto se partiu em três pedaços, de comprimentos a, b, c, com $a \leq b \leq c$. Ele recolheu os pedaços e tentou construir um triângulo cujos lados seriam exatamente os pedaços do graveto: \textbf{não foi possível}. Sabendo que o graveto tinha $50\ cm$ de comprimento e que $b = a + 2$, qual é o maior valor possível de a?
+
+        \begin{itemize}
+        \item [a)] 9,5 cm
+        \item [b)] 10,5 cm
+        \item [c)] 11,5 cm %
+        \item [d)] 12,5 cm
+    \end{itemize}
+    \end{exampleblock}
+   
+\end{frame}
+
+\begin{frame}{Problemão: Probabilidade com macarrão}
+
+    \begin{exampleblock}{\textbf{Desafio 05.}}
+        \justifying
+        Quebrando aleatoriamente um macarrão, de tamanho qualquer, em três partes, qual a probabilidade de que elas possam formar um triângulo?
+
+        \begin{center}
+            \includegraphics[scale=0.3]{imagens/macarrao_rmvbg.png}
+        \end{center}
+    
+    \end{exampleblock}
+   
+\end{frame}
+
+\section{Referências}
+
+\begin{frame}{Referências}
+     \nocite{*}
+    \printbibliography
+\end{frame}
+
+\end{document}
