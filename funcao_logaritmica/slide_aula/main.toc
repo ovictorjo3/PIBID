@@ -3,3 +3,4 @@
 \beamer@sectionintoc {2}{Definição}{4}{0}{2}
 \beamer@sectionintoc {3}{Consequências}{15}{0}{3}
 \beamer@sectionintoc {4}{Propriedades operatórias}{20}{0}{4}
+\beamer@sectionintoc {5}{Mudança de base}{24}{0}{5}

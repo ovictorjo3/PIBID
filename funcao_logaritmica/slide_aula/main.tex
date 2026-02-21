@@ -34,12 +34,12 @@
 
 \addtobeamertemplate{block alerted}{}{\justifying}
 
-\author[Joao Victor \& Prof. Luiz Claudio]{% 
-Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
+\author[Prof. Luiz Claudio \& Joao Victor]{% 
+Prof. Luiz Claudio\inst{1} \and Joao Victor\inst{2}}
 \title[Função Logarítmica]{Função Logarítmica}
 \institute[]{% 
-  \textsuperscript{1} Instituto Federal do Amazonas \\
-  \textsuperscript{2} EETI Bilíngue Gilberto Mestrinho de Medeiros Raposo
+  \textsuperscript{1} EETI Bilíngue Gilberto Mestrinho de Medeiros Raposo \\
+  \textsuperscript{2} Instituto Federal do Amazonas
 }
 
 \titlegraphic{\includegraphics[width=0.2\textwidth]{imagens/logo_3.jpg}}
@@ -137,7 +137,7 @@ Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
     	
     	\begin{block}{Logaritmo decimal}
     		\justifying
-    		Isto é, quando a base do logaritmo for 10, podemos omiti-la da notação:
+    		Quando a base do logaritmo for 10, podemos omiti-la da notação:
     		\begin{itemize}
     			\item $\log1 = \log_{10}1=0$
     			\item $\log1000=\log_{10}1000=3$
@@ -145,7 +145,7 @@ Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
     	\end{block}
     	
     	\uncover<2->{
-    	\begin{block}{Logaritmo natural (Logaritmo natural)}
+    	\begin{block}{Logaritmo natural (Logaritmo neperiano)}
     		\justifying
     		Já quando a base do logaritmo é o número de Euler, $\euler \approx 2,7183$, a notação utilizada é $\ln$:
     		\begin{itemize}
@@ -271,5 +271,69 @@ Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
 
 %exampleblock
 
+\section{Mudança de base}
+
+	\begin{frame}{Mudança de base}
+		\begin{block}{Definição}
+				Suponha que $a, b \ \text{e} \ c$ números reais positivos, com $a \ \text{e} \ b$ diferentes de $1$. Temos:
+			
+				$$\log_{a}c=\dfrac{\log_{b}c}{\log_{b}a}$$
+		\end{block} Por exemplo:
+		
+		\begin{itemize}
+			
+			\uncover<2->{
+			\item [a)] base 10: $\log_{2}5=\dfrac{\log_{10}5}{\log_{10}2}=\dfrac{0,699}{0,3010} \approx 2,32$ \\
+			}
+			
+			\vspace{0.5cm}
+			
+			\uncover<3->{
+			\item [b)] base \euler: $\log_{2}5=\dfrac{\log_{\euler}5}{\log_{\euler}2}=\dfrac{\ln 5}{\ln 2}=\dfrac{1,609}{0,693} \approx 2,32$
+			}
+		\end{itemize}
+	
+	\end{frame}
+	
+	\begin{frame}{Exercício}
+		\begin{alertblock}{\exercicio}
+			\justifying
+			Calcular o valor de $\log_{100}72$, considerando as aproximações: $\log2 = 0,3 \ \text{e} \ \log3=0,48$.
+		\end{alertblock}
+	\end{frame}
+	
+	
+	\begin{frame}{Aplicação importante}
+		Sejam $a \ \text{e} \ b$ reais positivos e diferentes de $1$. Temos que:
+		
+		\begin{block}{Definição}
+			$$\log_{a}b \ . \ \log_{b}a=1 \ \text{ou} \ \log_{b}a=\dfrac{1}{\log_{a}b}$$
+		\end{block} Por exemplo:
+		
+		\begin{itemize}
+			\uncover<2->{
+			\item [a)] $\log_{3}2\ . \ \log_{2}3=1$ \\
+			}
+			
+			\vspace{0.3cm}
+			
+			\uncover<3->{
+			\item [b)] $\log_{4}5=\dfrac{1}{\log_{5}4}$
+			}
+		\end{itemize}
+		
+	\end{frame}
+
+	\begin{frame}{Exercício}
+		
+		\begin{alertblock}{\exercicio}
+			Qual o valor de $y=\log_{3}7 \ . \ \log_{7}3 \ . \ \log_{11}5 \ . \ \log_{5}11$?
+		\end{alertblock}
+		
+		
+		\begin{alertblock}{\exercicio}
+			Mostrar que $\log_{49}25=\log_{7}5$.
+		\end{alertblock}
+	\end{frame}
 
 \end{document}
