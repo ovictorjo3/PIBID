@@ -18,6 +18,7 @@
 \setbeamertemplate{navigation symbols}{}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{ragged2e}
+\newcommand{\euler}{e}
 
 \newcounter{exercicio}
 \setcounter{exercicio}{0}
@@ -90,6 +91,16 @@ Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
 		}
 	\end{frame}
 
+	\begin{frame}{Definição}
+		
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.5]{imagens/ex-poliedro.png}
+			\caption{Sistema de Ensino Poliedro}
+		\end{figure}
+	
+	\end{frame}
+
     \begin{frame}{Exemplos}
        
        Vejamos alguns exemplos de logaritmos:
@@ -124,18 +135,26 @@ Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
     
     
     \begin{frame}{Convenção importante}
-    	Convencionou-se que, ao escrevermos o logaritmo de um número com a base omitida, estamos nos referindo ao logaritmo desse número em base 10, isto é:
+    	No caso do logaritmo decimal (isto é, quando a base do logaritmo for 10), podemos omiti-la da notação:
     	
-    	$$\log x = \log_{10}x$$
+    	\begin{itemize}
+    		\item $\log1 = \log_{10}1=0$
+    		\item $\log1000=\log_{10}1000=3$
+    	\end{itemize}
     	
-    	\begin{block}{Assim, por exemplo:}
-    		\begin{itemize}
-    			\item $\log 10.000 = 4,\  \text{pois} \ 10^{4}=10.000 $ \\
-    			\item $\log\dfrac{1}{1000}  = -3, \ \text{pois} \ 10^{-3}=\dfrac{1}{1000}$ \\
-    		\end{itemize}
-    	\end{block}
+    	\uncover<2->{
+    	Já quando a base do logaritmo é o número de Euler, $\euler \approx 2,7183$, a notação utilizada é $\ln$:
     	
-    	\uncover<2->{Os logaritmos em base 10 são conhecidos como \textbf{logaritmos decimais}.}
+    	
+    	\begin{itemize}
+    		\item $\ln e = \log_{\euler}\euler = 1$
+    		\item $\ln \euler^{3}=\log_{\euler}\euler^{3}=3$
+    	\end{itemize}
+    	}
+    	
+    	\uncover<3->{
+    	\textit{O logaritmo de base \textbf{\euler} recebe o nome de \textbf{logaritmo natural} ou \textbf{logaritmo neperiano}, em homenagem a John Napier, considerado um dos responsáveis pelo desenvolvimento dos logaritmos.}
+    	}
     	
     \end{frame}
 
@@ -163,7 +182,7 @@ Joao Victor\inst{1} \and Prof. Luiz Claudio\inst{2}}
 		Sejam $a,b$ e $c$ números reais com $0<a\neq 1, b>0 \ \text{e} \ c>0$. Decorrem da definição de logaritmo as seguintes propriedades (P):
 		
 		
-		\begin{block}{P4}
+		\begin{block}{P4:}
 			\begin{itemize}
 				\justifying
 				\item Se dois logaritmos em uma mesma base são iguais, então os logaritmandos também são iguais. $$ \log_{a}b=\log_{a}c \Rightarrow  b=c$$
