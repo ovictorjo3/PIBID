@@ -4,3 +4,4 @@
 \beamer@sectionintoc {3}{Consequências}{15}{0}{3}
 \beamer@sectionintoc {4}{Propriedades operatórias}{20}{0}{4}
 \beamer@sectionintoc {5}{Mudança de base}{24}{0}{5}
+\beamer@sectionintoc {6}{Exercícios Complementares}{32}{0}{6}
