@@ -16,7 +16,10 @@
 \usepackage{hyperref}
 \setbeamercovered{transparent} %transparente
 %\setbeamertemplate{navigation symbols}{\includegraphics[width=0.2\linewidth]{Logo IFAM-CALMAT.png}}
-
+\setbeamertemplate{navigation symbols}{}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+\usepackage{xcolor}
 
 \addtobeamertemplate{block begin}{}{\justifying}
 \addtobeamertemplate{block alerted begin}{}{\justifying}
@@ -34,10 +37,6 @@ Prof. Luiz Claudio\inst{1} \and Joao Victor\inst{2}}
 }
 \date{\today} 
 %\titlegraphic{\includegraphics[width=0.3\textwidth]{imagens/logo.png}}
-
-%\subject{}
-
-% ---------------------------------------------------------
 
 \begin{document}
 \onehalfspacing 
@@ -64,25 +63,40 @@ Prof. Luiz Claudio\inst{1} \and Joao Victor\inst{2}}
 			\item [c)] $h(x)=\log x$
 			\item [d)] $p(x)=\ln x$
 		\end{itemize}
-	\end{frame}
+    \end{frame}
 
-\begin{frame}{A idade adulta como ciclo de vida}
-	Conforme Marta Oliveira (2004),
-	
-	\begin{enumerate}
-		\item "A psicologia não tem sido capaz de formular, de modo satisfatório, uma psicologia do adulto."
-		\item "Sabemos muito sobre bebês, bastante sobre crianças, menos sobre jovens e quase nada sobre adultos."
-	\end{enumerate}
-\end{frame}
+\section{Propriedades}
 
-\section{Desenvolvimento Físico}
+    \begin{frame}{Propriedades (P)}
+        \begin{block}{P.1}
+            Se $0<a\neq 1$, então as funções $f$ de $\mathbb{R_{+}^*} \ \text{em} \ \mathbb{R}$,
+            definida por $f(x)=\log_{a}x$, e $g$ de $\mathbb{R} \ \text{em} \ \mathbb{R_{+}^*}$, definida
+            por $g(x)=a^{x}$, são inversas uma da outra. 
+        \end{block}
+    \end{frame}
 
-\begin{frame}{Desenvolvimento Físico}
-  \begin{enumerate}
-      \item A condição física atinge o auge, depois declina ligeiramente.
-      \item Opções de estilo de vida influenciam a saúde.
-  \end{enumerate}
-\end{frame}
+\section{Construção do gráfico}
+
+    \begin{frame}{Tabela}
+
+        \centering
+        \renewcommand{\arraystretch}{1.4}
+
+        \rowcolors{2}{gray!8}{white}
+        
+        \begin{tabular}{c | c}
+            \rowcolor{pink!25}
+            \textbf{x} & \textbf{$y=\log_2 x$} \\ \hline
+            & $-3$ \\
+            & $-2$ \\
+            & $-1$ \\
+            & $0$  \\
+            & $1$  \\
+            & $2$  \\
+            & $3$
+        \end{tabular}
+
+    \end{frame}
 
 \section{Desenvolvimento cognitivo}
 
