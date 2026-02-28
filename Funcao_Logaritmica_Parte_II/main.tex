@@ -1,0 +1,151 @@
+\documentclass[12pt]{beamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\usepackage{ragged2e}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\setbeamertemplate{caption}[numbered]
+\usepackage{hyperref}
+\setbeamercovered{transparent} %transparente
+%\setbeamertemplate{navigation symbols}{\includegraphics[width=0.2\linewidth]{Logo IFAM-CALMAT.png}}
+
+
+\addtobeamertemplate{block begin}{}{\justifying}
+\addtobeamertemplate{block alerted begin}{}{\justifying}
+\addtobeamertemplate{block example begin}{}{\justifying}
+\let\raggedright\justifying         
+\AtBeginEnvironment{frame}{\justifying} 
+
+
+\author[Prof. Luiz Claudio \& Joao Victor]{% 
+Prof. Luiz Claudio\inst{1} \and Joao Victor\inst{2}}
+\title{Função Logarítmica - Parte II}
+\institute[]{% 
+  \textsuperscript{1} EETI Bilíngue Gilberto Mestrinho de Medeiros Raposo \\
+  \textsuperscript{2} Licenciatura em Matemática (IFAM - CMC)
+}
+\date{\today} 
+%\titlegraphic{\includegraphics[width=0.3\textwidth]{imagens/logo.png}}
+
+%\subject{}
+
+% ---------------------------------------------------------
+
+\begin{document}
+\onehalfspacing 
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\section{Introdução}
+
+	\begin{frame}{Consideremos a seguinte situação}
+		\justifying
+		Cássio depositou uma certa quantia em uma caderneta de poupança especial, que rende 1\% ao mês. Por quantos meses ele deverá deixar o dinheiro na conta para que seu valor dobre? (Suponha que não sejam feitos retiradas nem novos depósitos.)
+	\end{frame}
+
+	\begin{frame}{Função Logarítmica}
+		\begin{block}{Definição}
+			Dado um número real $a \ (0<a\neq1)$, chamamos de \textbf{função logarítmica} de base $\textbf{a}$ a função $f$ de $\mathbb{R_+^*} \ \text{em} \ \mathbb{R}$ que associa a cada $x$ o número $\log_{a}x$.
+		\end{block} Exemplos de funções logarítmicas em $\mathbb{R_+^*}$
+		
+		\begin{itemize}
+			\item [a)] $f(x)=\log_{2}x$
+			\item [b)] $g(x)=\log_{\frac{1}{2}}x$
+			\item [c)] $h(x)=\log x$
+			\item [d)] $p(x)=\ln x$
+		\end{itemize}
+	\end{frame}
+
+\begin{frame}{A idade adulta como ciclo de vida}
+	Conforme Marta Oliveira (2004),
+	
+	\begin{enumerate}
+		\item "A psicologia não tem sido capaz de formular, de modo satisfatório, uma psicologia do adulto."
+		\item "Sabemos muito sobre bebês, bastante sobre crianças, menos sobre jovens e quase nada sobre adultos."
+	\end{enumerate}
+\end{frame}
+
+\section{Desenvolvimento Físico}
+
+\begin{frame}{Desenvolvimento Físico}
+  \begin{enumerate}
+      \item A condição física atinge o auge, depois declina ligeiramente.
+      \item Opções de estilo de vida influenciam a saúde.
+  \end{enumerate}
+\end{frame}
+
+\section{Desenvolvimento cognitivo}
+
+\begin{frame}{Desenvolvimento cognitivo}
+   \begin{enumerate}
+      \item O pensamento e os julgamentos morais tornam-se mais complexos.
+      \item São feitas as escolhas educacionais e vocacionais, às vezes após um período exploratório.
+  \end{enumerate}
+\end{frame}
+
+\section{Desenvolvimento psicossocial}
+\begin{frame}{Desenvolvimento psicossocial}
+    
+    \begin{enumerate}
+        \item Traços e estilos de personalidade tornam-se relativamente estáveis, mas as mudanças na personalidade podem ser influenciadas pelas fases e acontecimentos da vida.
+        \item São tomadas decisões sobre relacionamentos íntimos e estilos de vida pessoais, mas podem não ser duradouros.
+        \item A maioria das pessoas casam e tem filhos.
+    \end{enumerate}
+\end{frame}
+
+\section{Aplicação - Paradoxo de Monty Hall}
+
+\begin{frame}{Jogo - Paradoxo de Monty Hall}
+
+    \begin{block}{Definição}
+        Imagine que você está de frente para três portas numeradas – 1, 2 e 3 – e o apresentador diz: – Atrás de uma dessas portas tem um carro; mas atrás de cada uma das outras duas tem um bode. Escolha uma porta e leve para casa o que estiver atrás dela. \href{https://ovictorjo3.github.io/MontyHallProblem/}{Bora jogar!}
+    \end{block}
+
+    
+\end{frame}
+
+\begin{frame}{Discussão em Grupo: Nossas Experiências}
+    \begin{block}{Perguntas para Reflexão}
+        \begin{itemize}
+            \item \textbf{Na vida de vocês, quando "trocar de porta" deu certo?}
+            \item \textbf{E quando "ficar" foi a melhor decisão?}
+            \item \textbf{Por que é tão difícil mudar de decisão?}
+            \item \textbf{O que aprendemos com este jogo sobre tomar decisões na vida adulta?}
+        \end{itemize}
+    \end{block}
+    
+    \vspace{0.5cm}
+    \begin{alertblock}{Conclusão da Atividade}
+        A Matemática nos mostra que, assim como no jogo, na vida adulta\\
+        \textbf{estar aberto a reconsiderar escolhas pode ser a estratégia mais inteligente!}
+    \end{alertblock}
+\end{frame}
+
+\section{Referências}
+
+\begin{frame}{Referências}
+	
+	\begin{enumerate}
+		\item \textit{Diane E. Papalia e Ruth Duskin Feldman. O Desenvolvimento humano. Editora: AMGH, 2021.}
+		
+		\item \textit{OLIVEIRA, Marta Kohl. Ciclos de vida: algumas questões sobre a psicologia do adulto. Universidade de São Paulo, 2004. Disponível em: \href{https://www.scielo.br/j/ep/a/VfHTCkV5SFZWZf8PNwHk5Xk/?format=pdf&lang=pt}{Ciclos de vida: algumas questões sobre a psicologia do
+		adulto}}
+	
+		\item \textit{GONÇALVES, Josiane Peres. Ciclo Vital:
+			Início, Desenvolvimento e Fim da Vida Humana
+			Possíveis – Contribuições Para Educadores. Editora: Unijuí, 2016.}
+		
+	\end{enumerate}
+\end{frame}
+
+\end{document}
