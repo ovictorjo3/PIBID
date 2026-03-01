@@ -1,8 +1,7 @@
 \babel@toc {brazil}{}\relax 
 \beamer@sectionintoc {1}{Introdução}{2}{0}{1}
 \beamer@sectionintoc {2}{Propriedades}{4}{0}{2}
-\beamer@sectionintoc {3}{Construção do gráfico}{5}{0}{3}
-\beamer@sectionintoc {4}{Desenvolvimento cognitivo}{6}{0}{4}
-\beamer@sectionintoc {5}{Desenvolvimento psicossocial}{7}{0}{5}
-\beamer@sectionintoc {6}{Aplicação - Paradoxo de Monty Hall}{8}{0}{6}
-\beamer@sectionintoc {7}{Referências}{10}{0}{7}
+\beamer@sectionintoc {3}{Observações}{6}{0}{3}
+\beamer@sectionintoc {4}{Imagem}{10}{0}{4}
+\beamer@sectionintoc {5}{Gráfico}{11}{0}{5}
+\beamer@sectionintoc {6}{Exercícios}{13}{0}{6}

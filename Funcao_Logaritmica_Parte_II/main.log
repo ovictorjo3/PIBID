@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  28 FEB 2026 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  28 FEB 2026 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,10 +857,6 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 [8
 
 ]
-Overfull \vbox (1.10706pt too high) detected at line 146
- []
-
-
 
 [9
 
@@ -869,6 +865,119 @@ Overfull \vbox (1.10706pt too high) detected at line 146
 [10
 
 ]
+Overfull \vbox (5.28036pt too high) detected at line 168
+ []
+
+
+
+[11
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<imagens/funcoes.png, id=240, 716.6775pt x 446.66875pt>
+File: imagens/funcoes.png Graphic file (type png)
+<use imagens/funcoes.png>
+Package pdftex.def Info: imagens/funcoes.png  used on input line 172.
+(pdftex.def)             Requested size: 344.0013pt x 214.39856pt.
+
+Overfull \hbox (3.3057pt too wide) in paragraph at lines 172--172
+[][]  
+ []
+
+
+
+[12
+
+ <./imagens/funcoes.png>]
+<imagens/exercicio_1.png, id=250, 319.1925pt x 633.36626pt>
+File: imagens/exercicio_1.png Graphic file (type png)
+<use imagens/exercicio_1.png>
+Package pdftex.def Info: imagens/exercicio_1.png  used on input line 180.
+(pdftex.def)             Requested size: 95.75848pt x 190.01134pt.
+
+
+[13
+
+ <./imagens/exercicio_1.png>]
+<imagens/exercicio_1b.png, id=260, 189.70876pt x 416.55624pt>
+File: imagens/exercicio_1b.png Graphic file (type png)
+<use imagens/exercicio_1b.png>
+Package pdftex.def Info: imagens/exercicio_1b.png  used on input line 186.
+(pdftex.def)             Requested size: 85.36813pt x 187.44858pt.
+
+
+[14
+
+ <./imagens/exercicio_1b.png>]
+<imagens/exercicio_2.png, id=269, 293.095pt x 557.08125pt>
+File: imagens/exercicio_2.png Graphic file (type png)
+<use imagens/exercicio_2.png>
+Package pdftex.def Info: imagens/exercicio_2.png  used on input line 192.
+(pdftex.def)             Requested size: 102.58478pt x 194.98135pt.
+
+Overfull \vbox (0.69885pt too high) detected at line 192
+ []
+
+
+
+[15
+
+ <./imagens/exercicio_2.png>]
+<imagens/exercicio_2b.png, id=278, 283.0575pt x 570.13pt>
+File: imagens/exercicio_2b.png Graphic file (type png)
+<use imagens/exercicio_2b.png>
+Package pdftex.def Info: imagens/exercicio_2b.png  used on input line 198.
+(pdftex.def)             Requested size: 93.40926pt x 188.14348pt.
+
+
+[16
+
+ <./imagens/exercicio_2b.png>]
+
+[17
+
+]
+
+[18
+
+]
+
+[19
+
+]
+
+[20
+
+]
+<imagens/exercicio3.png, id=317, 468.75125pt x 404.51125pt>
+File: imagens/exercicio3.png Graphic file (type png)
+<use imagens/exercicio3.png>
+Package pdftex.def Info: imagens/exercicio3.png  used on input line 246.
+(pdftex.def)             Requested size: 140.62645pt x 121.35431pt.
+
+
+[21
+
+ <./imagens/exercicio3.png>]
+<imagens/exercicio_4.png, id=326, 468.75125pt x 413.545pt>
+File: imagens/exercicio_4.png Graphic file (type png)
+<use imagens/exercicio_4.png>
+Package pdftex.def Info: imagens/exercicio_4.png  used on input line 256.
+(pdftex.def)             Requested size: 140.62645pt x 124.06445pt.
+
+
+[22
+
+ <./imagens/exercicio_4.png>]
+<imagens/exercicio_5.png, id=335, 552.0625pt x 330.23375pt>
+File: imagens/exercicio_5.png Graphic file (type png)
+<use imagens/exercicio_5.png>
+Package pdftex.def Info: imagens/exercicio_5.png  used on input line 266.
+(pdftex.def)             Requested size: 248.42583pt x 148.6038pt.
+
+
+[23
+
+ <./imagens/exercicio_5.png>]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -884,21 +993,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A1173D21FA3FB0CD8771589E8349936D;1057.
+(rerunfilecheck)             Checksum: CC4DC24949B3926760A24EAB98139412;556.
  ) 
 Here is how much of TeX's memory you used:
- 28502 strings out of 475044
- 575760 string characters out of 5763162
- 935464 words of memory out of 5000000
- 50942 multiletter control sequences out of 15000+600000
- 574857 words of font info for 74 fonts, out of 8000000 for 9000
+ 28563 strings out of 475044
+ 576840 string characters out of 5763162
+ 935463 words of memory out of 5000000
+ 50977 multiletter control sequences out of 15000+600000
+ 574375 words of font info for 74 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
- 128i,15n,123p,463b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb>
-Output written on main.pdf (10 pages, 190614 bytes).
+ 128i,15n,123p,463b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb>
+Output written on main.pdf (23 pages, 903533 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 
