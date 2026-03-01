@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1772330250.19556 "/home/ovictorjo/Documents/GitHub/PIBID/Funcao_Logaritmica_Parte_II/main.tex" "main.pdf" "main" 1772330253.5869 0
+["pdflatex"] 1772394382.41207 "/home/ovictorjo/Documents/GitHub/PIBID/Funcao_Logaritmica_Parte_II/main.tex" "main.pdf" "main" 1772394385.79817 2
   "/etc/texmf/web2c/texmf.cnf" 1767656768.99464 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ovictorjo/Documents/GitHub/PIBID/Funcao_Logaritmica_Parte_II/main.tex" 1772330249.95804 9888 5cd363a0960511aa13801493efd95d31 ""
+  "/home/ovictorjo/Documents/GitHub/PIBID/Funcao_Logaritmica_Parte_II/main.tex" 1772394378.63043 10594 f7fd20a8a79582d666a4a875cd92c988 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss0500.tfm" 1136768653 3584 3cb5b0e5e7e89823423413806ab1d938 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss0600.tfm" 1136768653 3584 29c1411d292c531bfea559d981c42321 ""
@@ -251,10 +251,10 @@
   "imagens/exercicio_4.png" 1772329286.2889 30267 b9665d5a4c96cf1d7b0c4e79d832ab1e ""
   "imagens/exercicio_5.png" 1772329309.46707 33203 16c88094a879d9e844f4e0b3587d0393 ""
   "imagens/funcoes.png" 1772314511.17096 136148 7bc37a7fa1f7b122b130254861caf7b8 ""
-  "main.aux" 1772330253.46025 5166 b3ae30284f5084652e5edfc64875afb6 "pdflatex"
-  "main.nav" 1772330253.46297 3235 66b0c0a2ff7d73fcacff3aba07307382 "pdflatex"
-  "main.out" 1772330253.46197 556 cc4dc24949b3926760a24eab98139412 "pdflatex"
-  "main.tex" 1772330249.95804 9888 5cd363a0960511aa13801493efd95d31 ""
+  "main.aux" 1772394385.62957 5295 e8675735a3f1d4150dcdf62ff66c8c80 "pdflatex"
+  "main.nav" 1772394385.63132 3328 a4a065877b332dca6e447f5c06027816 "pdflatex"
+  "main.out" 1772394385.63132 556 cc4dc24949b3926760a24eab98139412 "pdflatex"
+  "main.tex" 1772394378.63043 10594 f7fd20a8a79582d666a4a875cd92c988 ""
   (generated)
   "main.aux"
   "main.log"
