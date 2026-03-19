@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  16 MAR 2026 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  19 MAR 2026 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,11 +733,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 582--583
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 586--587
 
  []
@@ -771,10 +766,10 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10343 strings out of 475044
- 222485 string characters out of 5763162
- 615355 words of memory out of 5000000
- 33233 multiletter control sequences out of 15000+600000
+ 10344 strings out of 475044
+ 222493 string characters out of 5763162
+ 616367 words of memory out of 5000000
+ 33234 multiletter control sequences out of 15000+600000
  605394 words of font info for 118 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  73i,9n,80p,582b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -787,7 +782,7 @@ f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "lista funcoes trigonometricas.pdf" (7 pages, 580978 bytes).
+Output written on "lista funcoes trigonometricas.pdf" (7 pages, 581056 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
